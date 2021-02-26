@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-color: #FFF9EF;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.index p {
+    font-size: 1.8rem;
+}
+
+.index a {
+    font-size: 1.8rem;
+}
+
+.index h3 {
+    font-size: 2rem;
+}
+
+a {
+    color: #2DB2AF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2DB2AF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#back-home-btn {
+    font-size: 1.2rem;
+}
